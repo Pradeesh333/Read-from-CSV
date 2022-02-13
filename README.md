@@ -14,6 +14,7 @@ Use len() method to get the number of rows and columns.
 ### Step 5:
 Print the output.
 ## PROGRAM:
+```
 #Program to read from a csv file and find the number of rows and columns in it
 #Developed by: Pradeesh S
 #Reference number: 212221240038
@@ -23,6 +24,7 @@ print(df.head(10))
 print(df.tail(5))
 print('No. of rows:',len(df.axes[0]))
 print('No. of columns:',len(df.axes[1]))
+```
 ## OUTPUT:
 ![](out.jpg)
 ## RESULT:
